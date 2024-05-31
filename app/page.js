@@ -7,7 +7,7 @@ const AboutSection = dynamic(() => import('./components/AboutSection'), { ssr: f
 const TestSection = dynamic(() => import('./components/TestSection'), { ssr: false });
 const TeamSection = dynamic(() => import('./components/TeamSection'), { ssr: false });
 
-export default function Home() {
+export default function Home() {   //jtest
   return (
     <div>
       <Navbar />
