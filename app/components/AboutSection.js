@@ -2,7 +2,7 @@
 
 export default function AboutSection({ id, title, bgColor }) {
   // 이미지 URL
-  const imageUrl = '/dng_info-removebg-preview.png';
+  const imageUrl = '/upgrade.png';
 
   // 섹션 스타일
   const sectionStyle = {
@@ -34,8 +34,15 @@ export default function AboutSection({ id, title, bgColor }) {
       <div style={textStyle}>
       <h2 className="text-4xl font-bold mb-4">{title}</h2>
         {/* 추가적인 설명 내용 */}
-        <p className="text-lg">ㅇㅁㄴㄹㅇㄹㄴㄹㅇㄴㅁㄹㅇㅇㄹㅇㄴㄹㄻㅇ닝룸니룽ㄴ밀ㅇㄴ미러
-        님ㅇ러ㅣㅁㅇ너림ㅇ나러밍ㄴ러ㅏㅣㅁㅇ너림ㄴㅇ러ㅣㅁㄴㅇ럼ㅇㄹ니ㅏㅓㅇㄹ나ㅣㅇㄹ너</p>
+        <p className="text-lg  whitespace-pre-line  leading-loose ">
+          사용자가 입력한 말은 다음을 목표로 변환됩니다.{'\n'}
+            1. 말투를 고칩니다.{'\n'}
+            2. 단, 의미를 해치지 않도록 합니다.{'\n\n'}
+            먼저 챗봇을 초대한 후, 챗봇에게 대화를 입력 합니다.{'\n'}
+            대화는 다수의 LLM 모델에게 전달되며,{'\n'}
+            각각 LLM이 번역한 순화 표현결과에 대해서 의견을 취합합니다.{'\n'}
+            즉, AI들의 해답을 AI에게 반복하여 '교차검증'된 최선의 결과를 가져옵니다.{'\n'}
+        </p>
       </div>
       <div style={imageStyle}></div>
     </div>

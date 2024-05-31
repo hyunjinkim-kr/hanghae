@@ -18,7 +18,12 @@ export default function Navbar() {
     </li>
     <li>
       <Link href="#test">
-        <div className="text-xl font-bold text-gray-800 hover:text-blue-500 cursor-pointer">Test</div>
+        <div className="text-xl font-bold text-gray-800 hover:text-blue-500 cursor-pointer">Demo</div>
+      </Link>
+    </li>
+    <li>
+      <Link href="#testing">
+        <div className="text-xl font-bold text-gray-800 hover:text-blue-500 cursor-pointer">Testing</div>
       </Link>
     </li>
     <li>

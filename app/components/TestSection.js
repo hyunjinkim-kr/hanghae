@@ -9,7 +9,7 @@ export default function TestSection({ id, title, bgColor }) {
     <div id={id} className={`h-screen flex items-center justify-center ${bgColor}`}>
       <div className="h-full w-full flex justify-center items-center">
         <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-3xl border border-gray-300">
-          <h1 className="text-4xl font-bold mb-6 text-center">Write</h1>
+          <h1 className="text-4xl font-bold mb-6 text-center">{title}</h1>
           <div className="mt-6 bg-gray-100 p-6 rounded-lg shadow-inner">
             <label htmlFor="question" className="block text-2xl font-semibold mb-4">Input</label>
             <input 

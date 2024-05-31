@@ -2,14 +2,14 @@
 import Image from "next/image";
 import React, { useState } from 'react';
 
-export default function Home() {
+export default function Home({title}) {
   const [question, setQuestion] = useState('');
 
   return (
     <div>
       <div className="p-10 min-h-screen flex justify-center items-center">
         <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-lg  border border-gray-300">
-          <h1 className="text-3xl font-bold mb-6 text-center">Write</h1>
+          <h1 className="text-3xl font-bold mb-6 text-center">{title}</h1>
             <div>
               <label htmlFor="title" className="block text-sm font-medium text-gray-700">Project Name</label>
               <input 
