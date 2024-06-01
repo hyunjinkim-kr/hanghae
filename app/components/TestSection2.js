@@ -18,7 +18,7 @@ export default function TestSection({ id, title, bgColor }) {
         <video
           className="w-full max-h-full rounded-lg shadow-lg"
           controls
-          src="/aimyon.mp4"
+          src="/[SHANA]after.mp4"
           type="video/mp4"
           style={{ maxHeight: 'calc(100vh - 32px)' }}
         >
