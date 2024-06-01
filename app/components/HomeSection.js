@@ -18,16 +18,16 @@ export default function HomeSection({ id, title, bgColor }) {
   };
 
   return (
-    <div id={id} className={`h-screen ${bgColor}`} style={sectionStyle}>
+    <div id={id} className={`h-screen ${bgColor} grid lg:grid-cols-2 grid-cols-1`} style={sectionStyle}>
       <div className="flex flex-col items-center justify-center p-8">
         {/* 설명 부분 */}
-        <h2 className="text-6xl font-extrabold mb-4 p-8 text-center text-black-700">{title}</h2>
-        <p className="text-2xl font-medium text-gray-700 text-center whitespace-pre-line">
+        <h2 className="text-3xl sm:text-4xl lg:text-6xl font-extrabold mb-4 p-8 text-center text-black-700">{title}</h2>
+        <p className="text-base sm:text-lg lg:text-2xl font-medium text-gray-700 text-center whitespace-pre-line">
           우리, 표정은 독해도 말은 순하게 해봐요!{'\n\n'}
           AI 교차검증을 통한 말투 독성제거를 경험해요.
         </p>
       </div>
-      <div style={imageStyle}>
+      <div className="flex items-center justify-center lg:p-0 p-8" style={imageStyle}>
         {/* 이미지 부분 */}
       </div>
     </div>

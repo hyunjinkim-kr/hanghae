@@ -23,7 +23,7 @@ export default function TestSection({ id, title, bgColor }) {
             <button 
               className="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded w-full text-lg"
               onClick={() => {
-                fetch(`http://ec2-3-35-9-74.ap-northeast-2.compute.amazonaws.com:8080/purify?text=${question}`, {
+                fetch(`https://ec2-3-35-9-74.ap-northeast-2.compute.amazonaws.com/purify?text=${question}`, {
                   method: 'GET'
                 })
                 .then((r) => r.json())

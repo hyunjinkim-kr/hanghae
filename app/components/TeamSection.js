@@ -12,8 +12,8 @@ const teamMembers = [
   },
   {
     name: 'Changhyun Nam',
-    image: '/suzuhara.jpeg',
-    description: '안녕하세요, 남창현 입니다. 감사합니다.',
+    image: '/nozomi.jpg',
+    description: '안녕하세요, 남창현 입니다. \n감사합니다.',
   },
   {
     name: 'Aimyon',
